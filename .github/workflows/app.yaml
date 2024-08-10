@@ -16,4 +16,4 @@ jobs:
 
       - name: Access GitHub Secret
         run: |
-          echo "GitHub Secret Value: $DOLT_PORTAL" | sed 's/./& /g
+          echo "GitHub Secret Value: $DOLT_PORTAL"
